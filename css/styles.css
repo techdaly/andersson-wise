@@ -1,0 +1,25 @@
+/*//////////////////////////////Document Styles/////////////////////////////*/
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+}
+
+body {
+  background-color: #181818;
+}
+/*//////////////////////////////Basic Styles////////////////////////////////*/
+
+/*//////////////////////////////Media Queries///////////////////////////////*/
+
+/*////////////X-Small (mobile)*/
+
+/*//////////////Small (tablet)*/
+
+/*/////////////Medium (laptop)*/
