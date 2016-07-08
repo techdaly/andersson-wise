@@ -1,4 +1,4 @@
-/*//////////////////////////////Document Styles/////////////////////////////*/
+/*/////////////////////////////////////////////////Document Styles//////////*/
 *,
 *::before,
 *::after {
@@ -15,7 +15,7 @@ html, body {
   font-family: "David Libre";
   font-variant: small-caps;
 }
-/*//////////////////////////////Basic Styles////////////////////////////////*/
+/*////////////////////////////////////////////////////Basic Styles//////////*/
 
   .header{
     background-color: white;
@@ -64,9 +64,9 @@ html, body {
     font-variant: normal;
   }
 
-/*//////////////////////////////Media Queries///////////////////////////////*/
+/*//////////////////////////////////////////////////Media Queries//////////*/
 
-/*////////////X-Small (mobile)*/
+/*///////////////////////////////X-Small (mobile)*/
 
 @media only screen and (max-width: 588px) {
   body {
@@ -132,6 +132,84 @@ html, body {
   }
 }
 
-/*//////////////Small (tablet)*/
+/*////////////////////////////////Small (tablet)*/
 
-/*/////////////Medium (laptop)*/
+@media only screen and (min-width: 589px) and (max-width: 866px) {
+  .header {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .header-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  ul.header-nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .featured-text {
+    position: absolute;
+    margin-left: 40px;
+    padding-top: 55%;
+  }
+
+  .featured-imgdiv {
+    position: relative;
+    z-index: -1;
+  }
+
+  .featured-link {
+    position: absolute;
+    z-index: -2;
+    margin-top: -200px;
+  }
+
+  .press {
+    margin-top: 24px;
+    background-color: #0087a4;
+    color: white;
+    width: calc(50% - 15px);
+    height: 250px;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .press-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .press-subtitle {
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .about{
+    margin-top: 24px;
+    background-color: #04298b;
+    color: white;
+    width: calc(50% - 15px);
+    height: 250px;
+    float: right;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about p {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+}
+
+/*//////////////////////////////Medium (laptop)*/
