@@ -11,14 +11,64 @@ html, body {
   margin: 0px;
 }
 
-body {
-  background-color: #181818;
-}
 /*//////////////////////////////Basic Styles////////////////////////////////*/
+
+  .header{
+    background-color: white;
+    padding: 15px;
+  }
+
+  .header-nav-link {
+    list-style-type: none;
+  }
+
+  .header-nav-link a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-nav-link a:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+
+  .featured-title, .featured-subtitle {
+    color: white;
+  }
 
 /*//////////////////////////////Media Queries///////////////////////////////*/
 
 /*////////////X-Small (mobile)*/
+
+@media only screen and (max-width: 588px) {
+  body {
+    background-color: #181818;
+  }
+
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .header-title {
+    padding-bottom: 15px;
+  }
+
+  .header-nav {
+    background-color: #f4f4f4;
+    margin: -15px;
+    padding: 15px;
+  }
+
+  .header-nav-link {
+    display: inline;
+    margin: 15px;
+  }
+
+  .header-nav-link:nth-child(1) {
+    margin-left: 0px;
+  }
+}
 
 /*//////////////Small (tablet)*/
 
