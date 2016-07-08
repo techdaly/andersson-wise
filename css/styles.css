@@ -70,7 +70,7 @@ html, body {
 
 @media only screen and (max-width: 588px) {
   body {
-    background-color: #181818;
+    background-color: #04298b;
   }
 
   .container {
@@ -113,6 +113,13 @@ html, body {
     font-size: 18px;
   }
 
+  .featured-imgdiv {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/dining.jpg');
+  }
+
   .press {
     background-color: white;
     padding: 15px;
@@ -134,7 +141,21 @@ html, body {
 
 /*////////////////////////////////Small (tablet)*/
 
-@media only screen and (min-width: 589px) and (max-width: 866px) {
+@media only screen and (min-width: 589px) and (max-width: 1244px) {
+  .container::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  .header-featured-combo{
+    position: relative;
+  }
+
   .header {
     position: absolute;
     margin-top: 40px;
@@ -154,7 +175,8 @@ html, body {
   .featured-text {
     position: absolute;
     margin-left: 40px;
-    padding-top: 55%;
+    margin-top: 50%;
+    margin-bottom: 50%;
   }
 
   .featured-imgdiv {
@@ -169,10 +191,10 @@ html, body {
   }
 
   .press {
-    margin-top: 24px;
+    margin-top: 9px;
     background-color: #0087a4;
     color: white;
-    width: calc(50% - 15px);
+    width: calc(50% - 5px);
     height: 250px;
     float: left;
     display: flex;
@@ -194,10 +216,10 @@ html, body {
   }
 
   .about{
-    margin-top: 24px;
+    margin-top: 9px;
     background-color: #04298b;
     color: white;
-    width: calc(50% - 15px);
+    width: calc(50% - 5px);
     height: 250px;
     float: right;
     padding: 40px;
@@ -209,7 +231,117 @@ html, body {
     margin-top: auto;
     margin-bottom: auto;
   }
-
 }
 
 /*//////////////////////////////Medium (laptop)*/
+
+@media only screen and (min-width: 1245px) {
+  .container::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  .header {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .header-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  ul.header-nav {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .featured-text {
+    position: absolute;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    margin-top: calc(100vh - 186px);
+  }
+
+  .featured-imgdiv {
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/dining.jpg');
+  }
+
+  .featured-imgdiv-img {
+    height: 0px;
+    width: 0px;
+  }
+
+  .featured-link {
+    position: absolute;
+    z-index: -2;
+    margin-top: -200px;
+  }
+
+  .header-featured-combo {
+    width: calc(70% - 5px);
+    float: left;
+  }
+
+  .press-about-combo{
+    height: 100%;
+    width: calc(30% - 5px);
+    float: right;
+  }
+
+  .press-about-combo::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .press {
+    margin-top: 0px;
+    background-color: #0087a4;
+    color: white;
+    height: calc(50% - 5px);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .press-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .press-subtitle {
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .about{
+    margin-top: 10px;
+    background-color: #04298b;
+    color: white;
+    height: calc(50% - 5px);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about p {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
