@@ -36,6 +36,10 @@ html, body {
     color: white;
   }
 
+  .featured-imgdiv-img {
+    width: 100%;
+  }
+
 /*//////////////////////////////Media Queries///////////////////////////////*/
 
 /*////////////X-Small (mobile)*/
@@ -51,12 +55,16 @@ html, body {
   }
 
   .header-title {
-    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
   }
 
   .header-nav {
     background-color: #f4f4f4;
-    margin: -15px;
+    margin-top: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
     padding: 15px;
   }
 
@@ -67,6 +75,27 @@ html, body {
 
   .header-nav-link:nth-child(1) {
     margin-left: 0px;
+  }
+
+  .featured-link {
+    background-color: white;
+    padding: 15px;
+    margin-top: -5px;
+  }
+
+  .featured-link-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .press {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .press p {
+    display: inline;
   }
 }
 
