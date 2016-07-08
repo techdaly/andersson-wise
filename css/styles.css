@@ -11,6 +11,10 @@ html, body {
   margin: 0px;
 }
 
+* {
+  font-family: "David Libre";
+  font-variant: small-caps;
+}
 /*//////////////////////////////Basic Styles////////////////////////////////*/
 
   .header{
@@ -18,8 +22,13 @@ html, body {
     padding: 15px;
   }
 
+  .header-title {
+    font-size: 24px;
+  }
+
   .header-nav-link {
     list-style-type: none;
+    font-size: 18px;
   }
 
   .header-nav-link a {
@@ -36,8 +45,23 @@ html, body {
     color: white;
   }
 
+  .featured-title {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  .featured-subtitle {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
   .featured-imgdiv-img {
     width: 100%;
+  }
+
+  .about p {
+    font-variant: normal;
   }
 
 /*//////////////////////////////Media Queries///////////////////////////////*/
@@ -86,6 +110,7 @@ html, body {
   .featured-link-text {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 18px;
   }
 
   .press {
@@ -96,12 +121,14 @@ html, body {
 
   .press p {
     display: inline;
+    font-size: 18px;
   }
 
   .about {
     background-color: white;
     padding: 15px;
     margin-top: 40px;
+    font-size: 14px;
   }
 }
 
