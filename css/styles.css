@@ -91,11 +91,17 @@ html, body {
   .press {
     background-color: white;
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .press p {
     display: inline;
+  }
+
+  .about {
+    background-color: white;
+    padding: 15px;
+    margin-top: 40px;
   }
 }
 
