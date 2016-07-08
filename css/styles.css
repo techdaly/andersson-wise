@@ -68,7 +68,7 @@ html, body {
 
 /*///////////////////////////////X-Small (mobile)*/
 
-@media only screen and (max-width: 588px) {
+@media only screen and (max-width: 884px) {
   body {
     background-color: #04298b;
   }
@@ -141,7 +141,7 @@ html, body {
 
 /*////////////////////////////////Small (tablet)*/
 
-@media only screen and (min-width: 589px) and (max-width: 1244px) {
+@media only screen and (min-width: 885px) and (max-width: 1244px) {
   .container::after{
     content: "";
     display: block;
